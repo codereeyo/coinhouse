@@ -9,10 +9,10 @@ function Header(){
             </div>
             <div className="nav-container">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Chart</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Join us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#chart">Chart</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#footer">Join us</a></li>
                 </ul>
             </div>
             <div className="social-links">

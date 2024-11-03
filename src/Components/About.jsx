@@ -2,7 +2,7 @@
 
 function About(){
     return(
-        <div className="inner-about">
+        <div className="inner-about" id="about">
             <h2>ABOUT <br /><span>COINHOUSE</span></h2>
             <div className='feature'>
                 <div className="left-col">

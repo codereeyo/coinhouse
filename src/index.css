@@ -21,6 +21,10 @@ body{
     /* background-repeat: no-repeat; */
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 html, body{
     overflow-x: hidden;
 }
@@ -438,10 +442,39 @@ tbody tr:hover {
     font-size: 32px;
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #005766;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.5s ease, background-color 0.3s ease;
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* Prevent interaction when hidden */
+}
+
+.back-to-top.visible {
+    opacity: 1;
+    pointer-events: auto; /* Enable interaction when visible */
+}
+
+.back-to-top:hover {
+    background-color: #00B7C2;
+}
+
 
 @media screen and (max-width: 1300px){
     .width{
         width: 500px;
+    }
+    .back-to-top{
+        bottom: 20px;
+        right: 20px;
     }
 }
 

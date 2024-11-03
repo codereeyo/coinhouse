@@ -36,7 +36,7 @@ function CoinTable(){
     }
 
     return (
-        <div className="inner-table">
+        <div className="inner-table" id="chart">
             <table>
                 <thead>
                     <tr>

@@ -25,7 +25,7 @@ function Hero() {
   }, []);
 
   return (
-    <div className="inner-hero">
+    <div className="inner-hero" id='home'>
         <div className="hero-row1">
             <img className="btc-logo" src={bitcoinIcon} alt="Bitcoin logo" />
             <h1>TRACK YOUR BEST<br /><span className="crypto-projects">CRYPTO PROJECTS</span></h1>
