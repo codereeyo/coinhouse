@@ -456,6 +456,7 @@ tbody tr:hover {
     transition: opacity 0.5s ease, background-color 0.3s ease;
     opacity: 0; /* Initially hidden */
     pointer-events: none; /* Prevent interaction when hidden */
+    /* comment */
 }
 
 .back-to-top.visible {
