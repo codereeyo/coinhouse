@@ -35,6 +35,7 @@ function Footer() {
                     <a href=""><i className="fa-brands fa-instagram"></i></a>
                 </div>
                 <p>Coinhouse © 2024. All Rights Reserved.</p>
+                {/* below is the button to scroll to top  */}
                 <button onClick={scrollToTop} className='back-to-top'><i className="fa-solid fa-circle-up"></i></button>
             </div>
             <img className='width' src={coinsBull} alt="picture of stacked coins" />
